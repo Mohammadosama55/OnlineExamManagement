@@ -1,0 +1,55 @@
+/* Page-specific styles */
+
+.login-page,
+.registration-page,
+.dashboard-page,
+.exam-page,
+.results-page,
+.user-profile-page,
+.admin-dashboard-page {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+form input {
+  background-color: #f0f0f0;
+}
+
+form button {
+  background-color: #3498db;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Page-specific styles continue... */
+
+/* Link styles */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+}
